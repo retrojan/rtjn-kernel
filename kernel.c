@@ -37,7 +37,9 @@ void rkernel(){
     set_cursor(10, 0);
     print_string(line6);
     
-    while(1); 
+    while(1) {
+        __asm__ volatile ("hlt");
+    }
 }
 
 void clear_screen(){
