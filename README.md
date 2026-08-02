@@ -2,7 +2,7 @@
 
 # rtjn-kernel
 
-### [CODEBERG](https://codeberg.org/retrojan/rtjn-kernel/)
+
 
 **Simple x86 kernel**
 
