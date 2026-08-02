@@ -1,3 +1,6 @@
+; boot.asm
+; https://github.com/retrojan/rtjn-kernel
+
 global _start      ; make _start visible to the linker (entry point)
 extern rkernel     ; function defined in kernel.c (C code)
 
