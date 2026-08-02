@@ -1,9 +1,9 @@
 // kernel.c
 // https://github.com/retrojan/rtjn-kernel
 
-// color attribute for text 
-#define COLOR 0x0C
 /*
+color attributes for text
+
 0x0 Black
 0x1 Blue
 0x2 Green
@@ -21,6 +21,8 @@
 0xE Yellow
 0xF White
 */
+#define COLOR 0x0C
+
 
 // function prototypes
 void outb(unsigned short port, unsigned char data);
