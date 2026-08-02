@@ -1,5 +1,6 @@
 /* linker.ld */
 /* This file tells the linker how to combine object files */
+
 ENTRY(_start)    /* entry point - _start symbol from boot.asm */
 
 SECTIONS {
