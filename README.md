@@ -1,1 +1,38 @@
 # rtjn-kernel
+<img width="732" height="410" alt="image" src="https://github.com/user-attachments/assets/baec0dcd-4025-47fc-90ef-82e0cbe74ac9" />
+
+Simple x86 kernel
+
+BIOS/Legacy boot only (Multiboot)
+- For UEFI systems: enable CSM
+
+## PACKAGES
+
+U need:
+- nasm
+- gcc
+- ld
+- grub
+- xorriso
+- qemu
+
+Arch Linux
+```bash
+sudo pacman -S nasm gcc grub libisoburn qemu
+```
+
+## BUILD
+
+Clone repository
+```bash
+git clone https://github.com/retrojan/rtjn-kernel.git && cd rtjn-kernel
+```
+Build
+```bash
+make
+```
+Run qemu
+```bash
+make run
+```
+
