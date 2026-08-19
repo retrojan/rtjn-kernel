@@ -30,7 +30,7 @@ U need:
 
 Arch Linux
 ```bash
-sudo pacman -S nasm gcc grub xorriso qemu
+sudo pacman -S nasm gcc grub xorriso qemu mtools
 ```
 
 ## BUILD
